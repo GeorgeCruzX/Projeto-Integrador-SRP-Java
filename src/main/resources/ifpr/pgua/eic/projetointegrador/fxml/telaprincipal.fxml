@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="ancorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="320.0" style="-fx-background-color: #E08920FF;" styleClass="ancorPane" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.projetointegrador.controllers.TelaPrincipal">
+   <children>
+
+      <Pane id="Paneg" layoutY="-8.0" prefHeight="73.0" prefWidth="320.0" style="-fx-background-color: #E08920FF;" styleClass="Pane" stylesheets="@css/style.css">
+         <children>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="16.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SRP - Sistema de Reclamação Popular" textAlignment="CENTER" wrappingWidth="289.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+
+      <Pane layoutY="54.0" prefHeight="427.0" prefWidth="320.0" styleClass="Pane" stylesheets="@css/style.css">
+         <children>
+
+            <Button id="Button" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#cadastroCliente" prefHeight="48.0" prefWidth="122.0" style="-fx-background-color: #00000;" text="Cadastrar-se" />
+            <Button id="Button" layoutX="14.0" layoutY="173.0" mnemonicParsing="false" onAction="#cadastroDev" prefHeight="48.0" prefWidth="122.0" text="Reclame Aqui" />
+            <Button id="Button" layoutX="14.0" layoutY="26.0" mnemonicParsing="false" onAction="#login" prefHeight="48.0" prefWidth="122.0" style="-fx-background-color: #00000;" text="Login" />
+            <ImageView fitHeight="121.0" fitWidth="102.0" layoutX="197.0" layoutY="283.0">
+               <image>
+                  <Image url="@css/SRP.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

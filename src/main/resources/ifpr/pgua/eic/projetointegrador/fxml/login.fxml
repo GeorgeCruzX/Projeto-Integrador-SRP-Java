@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="ancorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="320.0" styleClass="ancorPane" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ifpr.pgua.eic.projetointegrador.controllers.TelaLogin">
+   <children>
+      <Pane layoutX="4.0" layoutY="5.0" prefHeight="469.0" prefWidth="312.0" styleClass="paneLogin" stylesheets="@css/style.css">
+         <children>
+            <Pane layoutX="4.0" layoutY="5.0" prefHeight="47.0" prefWidth="304.0" styleClass="paneIntoLogin" stylesheets="@css/style.css">
+               <children>
+                  <Text fill="WHITE" layoutX="130.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <TextField fx:id="tfEmail" layoutX="42.0" layoutY="86.0" prefHeight="25.0" prefWidth="220.0" stylesheets="@css/style.css" />
+            <Text layoutX="42.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+            <PasswordField fx:id="pfSenha" layoutX="42.0" layoutY="146.0" prefHeight="25.0" prefWidth="220.0" stylesheets="@css/style.css" />
+            <Text layoutX="43.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" />
+            <Button id="button" layoutX="70.0" layoutY="188.0" mnemonicParsing="false" onAction="#entrar" prefHeight="28.0" prefWidth="79.0" style="-fx-background-color: #000000;" stylesheets="@css/style.css" text="Entrar" textFill="WHITE">
+               <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+            </Button>
+            <Button id="button" layoutX="163.0" layoutY="188.0" mnemonicParsing="false" onAction="#voltar" prefHeight="28.0" prefWidth="79.0" style="-fx-background-color: #000000;" stylesheets="@css/style.css" text="Voltar" textFill="WHITE">
+            <font>
+                  <Font name="Calibri" size="15.0" />
+               </font>
+            </Button>
+
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
